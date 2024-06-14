@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Churras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/imgs/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main class="main">
+        <h1 class="title">Calculadora de churrasco</h1>
+        <p>Insira abaixo a quantidade de pessoas que vão participar do churrasco!</p>
+        <label for="homens"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><circle cx="12" cy="4" r="2"></circle><path d="M15 7H9a1 1 0 0 0-1 1v7h2v7h4v-7h2V8a1 1 0 0 0-1-1z"></path></svg>Homens: <input class="input" value="0" min="0" max="100" type="number" name="homens" id="homens"></label>
+        <label for="mulheres"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><circle cx="12" cy="4" r="2"></circle><path d="M14.948 7.684A.997.997 0 0 0 14 7h-4a.998.998 0 0 0-.948.684l-2 6 1.775.593L8 18h2v4h4v-4h2l-.827-3.724 1.775-.593-2-5.999z"></path></svg>Mulheres: <input class="input" value="0" min="0" max="100" type="number" name="mulheres" id="mulheres"></label>
+        <label for="criancas"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><circle cx="12" cy="6" r="2"></circle><path d="M14 9h-4a1 1 0 0 0-.8.4l-3 4 1.6 1.2L9 13v7h2v-4h2v4h2v-7l1.2 1.6 1.6-1.2-3-4A1 1 0 0 0 14 9z"></path></svg>Crianças: <input class="input" value="0" min="0" max="100" type="number" name="criancas" id="criancas"></label>
+        <button id="calcular" role="button">Calcular</button>
+        <div id="resultado" class="resultado">
+            <p>Quantidade de itens a serem comprados: </p>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </main>
+<script src="main.js" defer></script>
+</body>
+</html>
